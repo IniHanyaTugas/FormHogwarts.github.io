@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Hogwarts Registration</title>
+</head>
+
+<body>
+    <h1>
+        Registration
+    </h1>
+    <div class="container">
+        <form class="form" action="https://anistackme.xyz/">
+            <label id="name-label" for="firstname"> First Name: </label>
+                <input id="name" type='text' placeholder=' Enter your First Name' required>
+
+            <label id="name-label" for="middlename"> Middle Name: </label>
+                <input id="name" type='text' placeholder=' Enter your Middle Name' required>
+
+            <label id="name-label" for="lastname"> Last Name: </label>
+                <input id="name" type='text' placeholder=' Enter your Last Name' required>
+
+            <label id='number-label'> Age: </label>
+                <input id='age' type='number' placeholder=' Age' min="7" max="30" required>
+
+            <label for='dropdown'>Gender</label>
+                <select id='dropdown'>
+                <option value='Female'>Female</option>
+                <option value='Male'>Male</option>
+                </select>
+
+            <label for='dropdown'>Class</label>
+                <select id='dropdown'>
+                <option value='Gryffindor'>Gryffindor</option>
+                <option value='Hufflepuff'>Hufflepuff</option>
+                <option value='Ravenclaw'>Ravenclaw</option>
+                <option value='Slytherin'>Slytherin</option>
+                </select>
+
+            <label id="name-label" for="witchcraft">Witchcraft: </label>
+                <input id="witchcraft" type='text' placeholder=' Enter your witchcraft' required>
+
+            <label id="name-label" for="dob">Date of Birth: </label>
+                <input class="form-control" id="dob" placeholder="Date of Birth:" type="date">
+
+            <label id="name-label" for="phonenumber"> Phone Number: </label>
+                <input id="phone" type='phone' placeholder='+62' required>
+
+            <label id="name-label" for="email"> Email: </label>
+                <input id="email" type='email' placeholder='example@gmail.com' required>
+            
+            <label id="name-label" for="address"> Address: </label>
+                <textarea id="address" type='text' placeholder=''></textarea>
+    <div class="containertombol">
+        <input class="tombol" type="submit" value="cancel">
+        <input class="tombol" type="submit" value="submit">
+    </div>
+        </form>
+    </div>
+</body>
+</html>

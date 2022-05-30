@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Montserrat:wght@100&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Fondamento', cursive;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url("./bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+h1{
+    color: #FFDE9B;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    margin-top: 40px;
+}
+.container{
+    width: 70%;
+    height: auto;
+    background-color: #232321;
+    padding: 20px;
+    border-radius: 10px;
+}
+label{
+    font-size: 16px;
+    color: #FFDE9B;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+::placeholder{
+    color: #BBA881;
+}
+.form input, .form select{
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #444;
+    color: #BBA881;
+    font-size: 16px;
+}
+.form textarea{
+    padding: 5px 10px;
+    background-color: #444;
+    height: 50px;
+    resize: vertical;
+    color: #BBA881;
+}
+.containertombol{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tombol{
+    font-size: 16px;
+}
+
